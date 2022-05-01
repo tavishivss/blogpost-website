@@ -24,7 +24,7 @@ return (
     <Route path="/article/:slug" component={SingleArticle}/>
     <Route path="/articles/create" component={CreateArtice}/>
     <Route path="/signup" component={SignUp}/>
-    //
+  
     
     {
     location.pathname !== '/login' && location.pathname !== '/signup' &&
@@ -39,7 +39,5 @@ ReactDOM.render(
   <Main />
   </BrowserRouter>, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
+
 serviceWorker.unregister();
