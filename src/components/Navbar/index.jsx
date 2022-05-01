@@ -25,7 +25,7 @@ const Navbar = () => {
                   <i className="fa fa-caret-down" />
                 </a>
                 <div className="nav-submenu">
-                  <a className="nav-link" href="page-login.html">My articles</a>
+                  <Link className="nav-link" to="/login">My articles</Link>
                   <a className="nav-link" href>Logout</a>
                 </div>
               </li>
