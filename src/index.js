@@ -10,7 +10,6 @@ import SingleArticle from './components/SingleArticle';
 import CreateArtice from './components/CreateArticle';
 import * as serviceWorker from './serviceWorker';
 
-
 const Main = withRouter(({ location }) => {
 return (
 <div>
